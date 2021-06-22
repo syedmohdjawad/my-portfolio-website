@@ -16,6 +16,19 @@ body {
     font-family: 'Montserrat',
     sans-serif; 
 }
+/** blog box
+
+**/
+
+.blog-box {
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border: 1px solid var(--primary-color) ;
+    border-radius: 1rem;
+    max-height: 3rem;
+    
+}
+
 
 /**container**/
 
@@ -91,6 +104,7 @@ body {
 }
 
 .hero-img{
+    border-radius: 1rem;
     margin: auto;
     max-width: 300px;
     display: block;
@@ -104,7 +118,7 @@ body {
 
 
 .section {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .section h1 {
@@ -131,5 +145,17 @@ body {
 
 .footer-header {
     font-size: large;
+}
+
+.floatRightClear {
+    float:right;
+    clear:right;
+    margin-left:20px;
+}
+
+.images {
+    border-radius: 1rem;
+    max-width: 300px;
+    display: block;
 }
 
